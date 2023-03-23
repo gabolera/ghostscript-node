@@ -1,6 +1,18 @@
 # ghostscript-node
 
+<div align="center">
+  
 [![GitHub license](https://img.shields.io/github/license/sigalor/ghostscript-node)](https://github.com/sigalor/ghostscript-node/blob/master/LICENSE) [![npm](https://img.shields.io/npm/v/ghostscript-node)](https://www.npmjs.com/package/ghostscript-node) [![Unit tests workflow status](https://github.com/sigalor/ghostscript-node/actions/workflows/tests.yaml/badge.svg)](https://github.com/sigalor/ghostscript-node/actions/workflows/tests.yaml)
+  
+</div>
+
+<br/>
+
+> **Warning**
+> 
+> This is a custom branch for run in node version >= 12
+
+<br/>
 
 ## Introduction
 
@@ -47,6 +59,9 @@ const gs = require("ghostscript-node");
 
   // checks if pdf1 is a valid PDF file
   const isPDF1Valid = await gs.isValidPDF(pdf1);
+  
+  // reduce size PDF
+  const compressedPdf = await gs.compressPDF(pdf1);
 })();
 ```
 
