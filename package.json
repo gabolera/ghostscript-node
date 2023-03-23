@@ -22,8 +22,8 @@
   },
   "homepage": "https://github.com/sigalor/ghostscript-node#readme",
   "dependencies": {
-    "fs-extra": "^11.1.0",
-    "tempy": "^1.0.1"
+    "fs-extra": "10.1.0",
+    "tempy": "2.0.0"
   },
   "devDependencies": {
     "@types/fs-extra": "^11.0.1",
